@@ -55,6 +55,12 @@ slides - some slides to help in workshop
 - pnpm - we need to use yarn, as npm does not support workspaces yet
 - node lts - we recommend using node LTS version, and nvm to manage your node version
 - mongo - you can
+- brew - if you will install mongo
+
+# Brew
+
+## How to install brew
+Follow the steps on: https://brew.sh/
 
 ## Mongo
 

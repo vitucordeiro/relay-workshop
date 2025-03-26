@@ -1,0 +1,4 @@
+FROM mongo:latest
+# No need to set ENV here, it will come from docker-compose
+EXPOSE 27017
+CMD ["mongod"]

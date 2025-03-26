@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  mongo:
+    build: .
+    environment:
+      - MONGO_URI=${MONGO_URI}
+    ports:
+      - "27017:27017"
